@@ -1,0 +1,61 @@
+<header>
+  <div class="container">
+     <a href="/" class="logo">Programa YA</a>
+    <nav>
+      <a href="/#somos-proya">Quienes somos</a>
+      <a href="/#nuestros-programas">Programas</a>
+      <a href="/#caracteristicas">Caracteristicas</a>
+      <a href="/contact">Contacto</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  header {
+    background-color: rgb(231, 227, 227);
+  }
+  header .logo {
+    font-weight: bold;
+    color: blueviolet;
+    margin: 0;
+    padding: 25px 30px;
+    font-size: 2em;
+  }
+  header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav {
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  header a:hover {
+    color: blueviolet;
+  }
+
+  @media (min-width: 957px) {
+    header {
+      top: 0;
+      position: sticky;
+      width: 100%;
+    }
+    header .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    header .nav {
+      flex-direction: row;
+      padding-bottom: 0;
+      padding-right: 20px;
+    }
+  }
+</style>
