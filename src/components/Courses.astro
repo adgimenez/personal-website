@@ -1,0 +1,61 @@
+<div class="courses">
+  <div class="list-wrapper">
+    <ul class="list">
+      <li>
+        <h2>UTN Course</h2>
+        <img src="/public/media/front-end.jpg" alt="front-end" />
+        <button type="button">+info</button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quis
+          hic veniam nisi excepturi provident laudantium ratione laborum odit
+          qui eaque voluptates id nesciunt, nulla quam officiis, omnis nemo
+          optio?
+        </p>
+      </li>
+      <li>
+        <h2>HTML and CSS</h2>
+        <img src="/public/media/css.avif" alt="" />
+        <button type="button">+info</button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          vitae veniam, similique sapiente numquam suscipit eius aliquam quia
+          aspernatur beatae minima! Minima deleniti eveniet repellat
+          voluptatibus? Iusto repudiandae beatae similique.
+        </p>
+      </li>
+      <li>
+        <h2>html</h2>
+        <img src="/public/media/full-stack.jpg" alt="full-stack" />
+        <button type="button">+info</button>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          vitae veniam, similique sapiente numquam suscipit eius aliquam quia
+          aspernatur beatae minima! Minima deleniti eveniet repellat
+          voluptatibus? Iusto repudiandae beatae similique.
+        </p>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .list-wrapper {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .list p {
+    display: none;
+  }
+  button:focus + p {
+    display: block;
+  }
+  .list li {
+    margin: 20, 0;
+  }
+  .list img {
+    min-width: 430px;
+    max-height: 215px;
+  }
+</style>
